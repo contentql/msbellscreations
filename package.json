@@ -4,8 +4,10 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "config-sync export --yes && strapi develop",
-    "start": "config-sync import --yes && strapi start",
+    "develop-old": "config-sync export --yes && strapi develop",
+    "start-old": "config-sync import --yes && strapi start",
+    "develop": "strapi develop",
+    "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
     "cs": "config-sync"
