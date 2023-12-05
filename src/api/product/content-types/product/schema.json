@@ -48,7 +48,9 @@
       "type": "enumeration",
       "enum": [
         "sale",
-        "new"
+        "new",
+        "Opening Sale discount 50% ",
+        "popular"
       ]
     },
     "priceSale": {
@@ -69,6 +71,22 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "home": {
+      "type": "boolean",
+      "default": false
+    },
+    "hot_deals": {
+      "type": "boolean",
+      "default": false
+    },
+    "featured_products": {
+      "type": "boolean",
+      "default": false
+    },
+    "special_offer": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

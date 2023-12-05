@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "emailAddress": {
+      "type": "email"
+    },
+    "streetAddress": {
+      "type": "text"
+    },
+    "city": {
+      "type": "string"
+    },
+    "zipCode": {
+      "type": "string"
+    },
+    "ShippingstreetAddress": {
+      "type": "string"
+    },
+    "Shippingcity": {
+      "type": "string"
+    },
+    "ShippingzipCode": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "Shippingcountry": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "product": {
+      "displayName": "Products",
+      "type": "component",
+      "repeatable": true,
+      "component": "products.products"
+    }
+  }
+}
