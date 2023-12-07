@@ -65,13 +65,22 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "phoneNumber": {
-      "type": "biginteger"
-    },
     "city": {
       "type": "string"
     },
     "country": {
+      "type": "string"
+    },
+    "streetAddress": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "zipCode": {
       "type": "string"
     }
   }

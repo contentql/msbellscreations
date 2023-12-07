@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "configurations",
+  "info": {
+    "singularName": "configuration",
+    "pluralName": "configurations",
+    "displayName": "configuration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "boolean",
+      "default": false
+    },
+    "hot_deals": {
+      "type": "boolean",
+      "default": false
+    },
+    "featured_products": {
+      "type": "boolean",
+      "default": false
+    },
+    "popular_products": {
+      "type": "boolean",
+      "default": false
+    },
+    "special_offer": {
+      "type": "boolean",
+      "default": false
+    },
+    "testimonials": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

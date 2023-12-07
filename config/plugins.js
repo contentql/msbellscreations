@@ -2,6 +2,9 @@ module.exports = ({ env }) => ({
   "users-permissions": {
     config: {
       jwtSecret: env("JWT_SECRET"),
+      data:{
+        allowedFileds:['phoneNumber','gender']
+      },
     },
   },
   graphql: {
@@ -17,6 +20,14 @@ module.exports = ({ env }) => ({
       },
     },
   },
+
+  stripe: {
+  config:{
+    enabled: true,
+    api_Key: env("STRIPE_API_KEY"),
+    api_secret:env("STRIPE_SECRET_KEY"),
+    webhookSecret: env("STRIPE_WEBHOOK_SECRET"),
+  }},
 
   upload: {
     config: {
