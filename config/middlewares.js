@@ -26,7 +26,15 @@ module.exports = [
       },
     },
   },
-  "strapi::cors",
+  // "strapi::cors",
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      headers: '*',
+      origin: ['http://localhost:1337', 'https://msbellcreations-production.up.railway.app/']
+    }
+  },
   "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
