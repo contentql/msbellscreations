@@ -32,7 +32,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:1337', 'https://msbellcreations-production.up.railway.app/']
+      origin: ['http://localhost:1337', 'https://msbellcreations-production.up.railway.app/','https://msbellscreations-backend-production.up.railway.app/']
     }
   },
   "strapi::poweredBy",
