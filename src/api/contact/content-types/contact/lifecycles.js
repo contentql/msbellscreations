@@ -4,13 +4,13 @@ module.exports = {
 
         try{
             await strapi.plugins['email'].services.email.send({
-              to: 'jagadeeshm778@gmail.com',
+              to: 'kaparapu.akhilnaidu@gmail.com',
               from: 'akhil@contentql.io', // e.g. single sender verification in SendGrid
-              cc: '',
+              cc: 'jagadeeshm778@gmail.com',
               bcc: '',
-              replyTo: '',
-              subject: 'Contact form',
-              text: 'hello jagadeesh maripi', 
+              replyTo: 'akhil@contentql.io',
+              subject: 'New contact form submission',
+            //   text: 'hello jagadeesh maripi', 
               html: `<p>Name: ${result.firstName}</p>
               <p>Phone number: ${result.phoneNumber}</p>
               <p>Email: ${result.email}</p>
