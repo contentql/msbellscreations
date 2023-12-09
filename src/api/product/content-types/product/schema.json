@@ -88,6 +88,9 @@
     "special_offer": {
       "type": "boolean",
       "default": false
+    },
+    "bgColor": {
+      "type": "string"
     }
   }
 }
