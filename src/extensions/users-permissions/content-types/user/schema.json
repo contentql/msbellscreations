@@ -82,6 +82,10 @@
     },
     "zipCode": {
       "type": "string"
+    },
+    "guest": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
