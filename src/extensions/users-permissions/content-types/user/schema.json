@@ -86,6 +86,10 @@
     "guest": {
       "type": "boolean",
       "default": false
+    },
+    "avatar": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -53,6 +53,13 @@
       "type": "component",
       "repeatable": true,
       "component": "products.products"
+    },
+    "Email_config": {
+      "type": "boolean",
+      "default": false
+    },
+    "totalPrice": {
+      "type": "string"
     }
   }
 }
