@@ -83,13 +83,15 @@
     "zipCode": {
       "type": "string"
     },
-    "guest": {
-      "type": "boolean",
-      "default": false
-    },
     "avatar": {
       "type": "string",
       "required": true
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
     }
   }
 }

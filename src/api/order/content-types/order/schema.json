@@ -54,7 +54,7 @@
       "repeatable": true,
       "component": "products.products"
     },
-    "Email_config": {
+    "status": {
       "type": "boolean",
       "default": false
     },
