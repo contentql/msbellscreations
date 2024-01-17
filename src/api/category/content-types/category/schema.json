@@ -25,6 +25,9 @@
         "videos",
         "audios"
       ]
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }

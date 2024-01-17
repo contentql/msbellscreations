@@ -21,6 +21,10 @@ module.exports = ({ env }) => ({
     },
   },
 
+   "drag-drop-content-types": {
+    enabled: true
+  },
+
   stripe: {
   config:{
     enabled: true,
