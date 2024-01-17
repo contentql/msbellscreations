@@ -91,6 +91,12 @@
     },
     "bgColor": {
       "type": "string"
+    },
+    "howtouse": {
+      "type": "richtext"
+    },
+    "ingredients": {
+      "type": "richtext"
     }
   }
 }
