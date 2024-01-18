@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_products_reviews",
+  "info": {
+    "displayName": "review",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "review": {
+      "type": "text"
+    },
+    "avatar": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

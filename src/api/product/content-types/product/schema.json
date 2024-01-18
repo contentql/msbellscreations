@@ -100,6 +100,12 @@
     },
     "rank": {
       "type": "integer"
+    },
+    "review": {
+      "displayName": "review",
+      "type": "component",
+      "repeatable": true,
+      "component": "products.review"
     }
   }
 }
