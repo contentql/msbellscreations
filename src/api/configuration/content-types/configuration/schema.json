@@ -37,13 +37,16 @@
       "default": false
     },
     "tax": {
-      "type": "float"
+      "type": "float",
+      "required": true
     },
     "discount": {
-      "type": "float"
+      "type": "float",
+      "required": true
     },
     "shipping": {
-      "type": "float"
+      "type": "float",
+      "required": true
     }
   }
 }
