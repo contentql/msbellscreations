@@ -35,6 +35,15 @@
     "testimonials": {
       "type": "boolean",
       "default": false
+    },
+    "tax": {
+      "type": "float"
+    },
+    "discount": {
+      "type": "float"
+    },
+    "shipping": {
+      "type": "float"
     }
   }
 }
