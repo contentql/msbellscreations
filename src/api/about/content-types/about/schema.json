@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "about"
+    "displayName": "about",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,21 @@
       "type": "richtext"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Faqs": {
+      "displayName": "faqs",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faqs"
     }
   }
 }
