@@ -1,36 +1,34 @@
 {
-  "kind": "collectionType",
-  "collectionName": "abouts",
+  "kind": "singleType",
+  "collectionName": "aboutuses",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "about",
-    "description": ""
+    "singularName": "aboutus",
+    "pluralName": "aboutuses",
+    "displayName": "aboutus"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "text": {
+    "about": {
       "type": "richtext"
     },
     "images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     },
-    "Faqs": {
+    "faqs": {
       "displayName": "faqs",
       "type": "component",
       "repeatable": true,
-      "component": "faq.faqs"
+      "component": "faqs.faqs"
     }
   }
 }
