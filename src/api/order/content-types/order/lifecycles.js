@@ -10,9 +10,9 @@ module.exports = {
             `).join('');
 
             await strapi.plugins['email'].services.email.send({
-                to: 'jagadeeshm778@gmail.com',
-                from: '36rahaman@gmail.com',
-                cc: 'jagadeeshm778@gmail.com',
+                to: 'kaparapu.akhilnaidu@gmail.com',
+                from: 'akhil@contentql.io',
+                cc: '36rahaman@gmail.com',
                 bcc: '',
                 replyTo: 'akhil@contentql.io',
                 subject: 'You got a new order !',
