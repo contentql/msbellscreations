@@ -21,8 +21,7 @@ module.exports = {
       await strapi.plugins["email"].services.email.send({
         to: [
           "kaparapu.akhilnaidu@gmail.com",
-          "pmk.9176@gmail.com",
-          //   "jgarrison@ezhadvisoryservices.com",
+          "jgarrison@ezhadvisoryservices.com",
           data.emailAddress,
         ],
         from: "akhil@contentql.io",
