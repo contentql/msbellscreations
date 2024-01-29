@@ -2,10 +2,6 @@ module.exports = {
     async afterUpdate(event) {
         const { result } = event;
         console.log("strapi data", result);
-        //console.log(result.status);
-
-        if(result.status)
-        {
 
         try {
             const productsHtml = result.product.map(product => `
@@ -14,9 +10,9 @@ module.exports = {
             `).join('');
 
             await strapi.plugins['email'].services.email.send({
-                to: 'kaparapu.akhilnaidu@gmail.com',
-                from: 'akhil@contentql.io',
-                cc: '36rahaman@gmail.com',
+                to: 'jagadeeshm778@gmail.com',
+                from: '36rahaman@gmail.com',
+                cc: 'jagadeeshm778@gmail.com',
                 bcc: '',
                 replyTo: 'akhil@contentql.io',
                 subject: 'You got a new order !',
@@ -32,6 +28,5 @@ module.exports = {
         } catch (err) {
             console.log(err);
         }
-    }
     }
 };
