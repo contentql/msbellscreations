@@ -55,7 +55,7 @@ module.exports = {
 
                         h1 {
                             color: #fff;
-                            margin: 20px 0 10px;
+                            margin: 10px 0 10px 10px;
                         }
 
                         th,
@@ -76,15 +76,6 @@ module.exports = {
                         p {
                             margin: 0 0 15px;
                             line-height: 1.6;
-                        }
-
-                        img {
-                            max-width: 100%;
-                            height: auto;
-                            margin-bottom: 15px;
-                            background: #eee;
-                            padding: 15px;
-                            border-radius: 5px;
                         }
 
                         .header {
@@ -181,9 +172,8 @@ module.exports = {
                     <table>
                         <tr>
                             <td class="header">
-                               <img src="https://newweb.msbellscreations.com/assets/icons/MainLogo.svg" alt="Company Logo"
-                                    style="max-width: 150px;">
-                                <h1><span class="tick-icon">&#10004;</span> Order Placed</h1>
+                               <h1>Ms. Bells Creations</b>
+                                <h2><span class="tick-icon">&#10004;</span> Order Placed</h2>
                             </td>
                         </tr>
                         <tr>
@@ -192,24 +182,26 @@ module.exports = {
                                   data.firstName + " " + data.lastName
                                 },</p>
 
-                                <p class="thank-you">Thank you for placing an order with ms. bells Creations Store! Your order details
+                                <p class="thank-you">Thank you for placing an order with Ms. Bells Creations Store! Your order details
                                     are as follows:</p>
 
                                 <table>
                                     <tr>
-                                        <th>Id</th>
+                                        <th>S. No.</th>
                                         <th>Product</th>
                                         <th>Quantity</th>
                                     </tr>
 
-                                    ${data.product.map(
-                                      (product, index) =>
-                                        `<tr>
-                                            <td>${product.productId}</td>
+                                    ${data.product
+                                      .map(
+                                        (product, index) =>
+                                          `<tr>
+                                            <td>${index + 1}</td>
                                             <td>${product.name}</td>
                                             <td>${product.quantity}</td>
                                         </tr>`
-                                    )}
+                                      )
+                                      .join("")}
 
                                 </table>
 
@@ -217,7 +209,7 @@ module.exports = {
                                   data.totalPrice
                                 }</strong></p>
 
-                                <p>Your order is confirmed and will be processed shortly. <strong>Thank you for choosing ms. bells
+                                <p>Your order is confirmed and will be processed shortly. <strong>Thank you for choosing Ms. Bells
                                         Creations Store!</strong></p>
 
                                 <table class="address-table">
@@ -241,12 +233,12 @@ module.exports = {
                                     </tr>
                                 </table>
 
-                                <p class="signature">Best regards,<br>ms. bells Creations</p>
+                                <p class="signature">Best regards,<br>Ms. Bells Creations</p>
                             </td>
                         </tr>
                         <tr>
                             <td class="footer">
-                                &copy; 2024 ms. bells Creations. All rights reserved.
+                                &copy; 2024 Ms. Bells Creations. All rights reserved.
                             </td>
                         </tr>
                     </table>
