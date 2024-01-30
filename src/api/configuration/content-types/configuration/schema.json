@@ -40,10 +40,6 @@
       "type": "float",
       "required": true
     },
-    "discount": {
-      "type": "float",
-      "required": true
-    },
     "shipping": {
       "type": "float",
       "required": true
