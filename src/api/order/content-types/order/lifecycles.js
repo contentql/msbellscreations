@@ -23,7 +23,7 @@ module.exports = {
         from: "akhil@contentql.io",
         cc: "",
         bcc: "",
-        replyTo: "akhil@contentql.io",
+        replyTo: "msbell@msbellscreations.com",
         subject: "🎉 Got a new order!",
         html: `<!DOCTYPE html>
                 <html lang="en">
@@ -245,11 +245,11 @@ module.exports = {
       });
 
       await strapi.plugins["email"].services.email.send({
-        to: "jagadesh@resonateaes.com",
+        to: "msbell@msbellscreations.com",
         from: "akhil@contentql.io",
         cc: "",
         bcc: "",
-        replyTo: "akhil@contentql.io",
+        replyTo: "msbell@msbellscreations.com",
         subject: "🎉 Got a new order!",
         html: `<!DOCTYPE html>
                 <html lang="en">
