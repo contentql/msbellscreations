@@ -245,7 +245,7 @@ module.exports = {
       });
 
       await strapi.plugins["email"].services.email.send({
-        to: "msbell@msbellscreations.com",
+        to: "jagadesh@resonateaes.com",
         from: "akhil@contentql.io",
         cc: "",
         bcc: "",
