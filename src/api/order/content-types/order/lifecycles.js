@@ -23,7 +23,7 @@ module.exports = {
         from: "akhil@contentql.io",
         cc: "",
         bcc: "",
-        replyTo: "msbell@msbellscreations.com",
+        replyTo: "kaparapu.akhilnaidu@gmail;.com",
         subject: "🎉 Got a new order!",
         html: `<!DOCTYPE html>
                 <html lang="en">
