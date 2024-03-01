@@ -15,7 +15,7 @@ module.exports = {
 
     console.log(data);
 
-    if (!result.status) return;
+    if (!result.paymentStatus) return;
 
     try {
       await strapi.plugins["email"].services.email.send({
@@ -216,13 +216,19 @@ module.exports = {
                                     <tr>
                                         <td>
                                             ${data.streetAddress},<br>
+                                             ${data.streetAddress2},<br>
                                             ${data.city},<br>
+                                            ${data.state},<br>
                                             ${data.zipCode},<br>
                                             ${data.country}
                                         </td>
                                         <td>
                                             ${data.ShippingstreetAddress},<br>
+                                               ${
+                                                 data.ShippingstreetAddress2
+                                               },<br>
                                             ${data.Shippingcity},<br>
+                                             ${data.Shippingstate},<br>
                                             ${data.ShippingzipCode},<br>
                                             ${data.Shippingcountry}
                                         </td>
@@ -442,13 +448,19 @@ module.exports = {
                                     <tr>
                                         <td>
                                             ${data.streetAddress},<br>
-                                            ${data.city},<br>
+                                            ${data.streetAddress2},<br>
+                                             ${data.city},<br>
+                                            ${data.state},<br>
                                             ${data.zipCode},<br>
                                             ${data.country}
                                         </td>
                                         <td>
                                             ${data.ShippingstreetAddress},<br>
+                                             ${
+                                               data.ShippingstreetAddress2
+                                             },<br>                                            
                                             ${data.Shippingcity},<br>
+                                             ${data.Shippingstate},<br>
                                             ${data.ShippingzipCode},<br>
                                             ${data.Shippingcountry}
                                         </td>

@@ -54,12 +54,30 @@
       "repeatable": true,
       "component": "products.products"
     },
-    "status": {
+    "paymentStatus": {
       "type": "boolean",
       "default": false
     },
     "totalPrice": {
       "type": "string"
+    },
+    "shippingStatus": {
+      "type": "boolean"
+    },
+    "streetAddress2": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "ShippingstreetAddress2": {
+      "type": "string"
+    },
+    "Shippingstate": {
+      "type": "string"
+    },
+    "ShippingCompleteDetails": {
+      "type": "text"
     }
   }
 }

@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
     config: {
       jwtSecret: env("JWT_SECRET"),
       data:{
-        allowedFileds:['firstName','lastName','phoneNumber','gender','city','country','zipCode','streetAddress','guest','avatar']
+        allowedFileds:['firstName','lastName','phoneNumber','gender','city','country','zipCode','streetAddress','guest','avatar','streetAddress2','state']
       },
     },
   },

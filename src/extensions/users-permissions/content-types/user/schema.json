@@ -92,6 +92,12 @@
     },
     "lastName": {
       "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "streetAddress2": {
+      "type": "string"
     }
   }
 }
